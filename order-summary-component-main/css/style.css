@@ -1,0 +1,96 @@
+/*GENERALES*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-color: hsl(225, 100%, 94%);
+}
+p{
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+/*CARD PRESENTATION*/
+#container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#card{
+    height: 600px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: hsl(225, 100%, 98%);
+    justify-content: center;
+}
+#image{
+    display: block;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+#cardContainer{
+    text-align: center;
+    padding: 30px;
+}
+#plan-description{
+    margin-top: 20px;
+    color: rgb(153, 151, 151);
+}
+#planContainer{
+    display: flex;
+    margin: auto;
+    background-color: hsla(225, 100%, 94%, 0.39);
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 300px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+}
+#icon-music{
+    margin-right: 25px;
+}
+#anual-plan{
+    margin-right: 35px;
+}
+#change >a:hover{
+    opacity: 0.5;
+    text-decoration: none;
+}
+#btn{
+    display: block;
+    text-align: center;
+    border: 1px solid hsl(245, 75%, 52%);
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0px 5px 15px hsl(224, 23%, 55%);
+    color: white;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: .5rem;
+    width: 88%;
+    border-radius: 10px;
+}
+#btn:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+.cancel-order{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+.cancel-order:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+
+
+
+
