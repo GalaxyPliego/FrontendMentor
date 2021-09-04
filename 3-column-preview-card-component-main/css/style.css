@@ -28,7 +28,7 @@ main{
 section{
     display: flex;
     width: 850px;
-    height: 450px;
+    height: 500px;
     border-radius: 10px;
 }
 #sedans, #suvs, #luxury{
